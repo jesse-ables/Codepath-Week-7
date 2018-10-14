@@ -24,3 +24,17 @@ Similar to the above exploit, an admin, hacked admin, or insider could add javas
 
 
   <img src="https://github.com/jesse-ables/Codepath-Week-7/blob/master/musicvulnerability.gif" width="800">
+  
+  
+  
+## Exploit 3 - XSS Using Puppy Pictures
+WP Version: 4.2
+Admin can add pictures with javascript in the name. This XSS will only activate if a user clicks on the image.
+  1. Admin adds an image to their media library
+  2. Admin adds javascript to the name of the image
+  3. Admin creates an image gallery and adds malicious image to it
+  4. User clicks on cute puppy picture and javascript triggers
+  
+  <img src="https://github.com/jesse-ables/Codepath-Week-7/blob/master/evilpuppy.gif" width="800">
+  
+  
