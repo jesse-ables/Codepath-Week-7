@@ -1,7 +1,7 @@
 # Codepath-Week-7
 Write up of vulnerabilities found in WordPress
 
-# H2 Exploit 1 - XSS Using Posts and Comments
+## Exploit 1 - XSS Using Posts and Comments
 WP Version: 4.2
 An admin or user can input a <script> tag into a post or comment for a post. 
   1. User finds a post created by an admin
@@ -14,7 +14,7 @@ An admin or user can input a <script> tag into a post or comment for a post.
   
   
   
-# H2 Exploit 2 - XSS Using Music Names
+## Exploit 2 - XSS Using Music Names
 WP Version: 4.2
 Similar to the above exploit, an admin, hacked admin, or insider could add javascript into the title of a piece of music in a playlist.
   1. Admin adds music to their media library
